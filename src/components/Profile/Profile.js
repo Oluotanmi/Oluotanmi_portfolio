@@ -6,7 +6,7 @@ const Profile =()=>{
             <div>
               <p className='text-center lg:p-9 sm:p-2 sm:text-sm text-white font-bold'>Getstall Delivery</p>
               <div className='justify-center'>
-                <img src='Ray.jpg' className='lg:w-30 sm:w-20 rounded-full lg:mx-8' />
+                <img src='Ray.jpg' className='lg:w-30 sm:w-20 rounded-full lg:mx-8' alt='profile' />
               </div>
             </div>
 
