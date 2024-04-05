@@ -1,35 +1,22 @@
 import React from 'react'
 
-const Footer =()=>{
+const Footer =()=> {
     return(
-        <div className='justify-center text-center bg-yellow-300 m-3 p-5'>
-          <div>
-           <h1 className='font-bold text-green-400 text-4xl p-3'>Getstall</h1>
-          </div>
-
-          <div >
-            <ul className='lg:flex justify-around text-white font-bold lg:p-5 sm:inline '>
-                <li>OverView</li>
-                <li>Features</li>
-                <li>Pricing</li>
-                <li>Foods</li>
-                <li>Help</li>
-                <li>Privacy</li>
-            </ul>
-          </div>
-
-          <div className='flex justify-around p-10 sm:justify-between'>
-            <div>
-                <input type='text' className='rounded-full p-1' />
-                <button className='bg-green-400 w-30 p-1 rounded-full text-white'>Subscribe</button>
-            </div>
-
-            <div>
-                <p className='text-green-400'>@Getsall.All right reserved</p>
-            </div>
-          </div>
+     <div className='bg-green-400 w-full p-10'>
+      
+        <p className='text-center font-bold text-3xl text-gray-400'>Portfolio</p>
+        <div className='flex justify-around p-4 text-gray-400 font-semibold'>
+            <p>About us</p>
+            <p>Support</p>
+            <p>Contact</p>
+            <p>Feature</p>
         </div>
+        <div>
+           <p className='text-center text-gray-400 font-bold'>@2024_RayTech</p>
+        </div>
+      
+     </div>
     )
 }
 
-export default Footer 
+export default Footer;

@@ -1,16 +1,15 @@
 import React from 'react';
-import Home from './components/Home';
-import { Route} from 'react-router-dom'
-import { Switch } from 'react-router-dom';
-import Footer from './components/Footer/Footer';
+import Footer from './components/Footer/Footer'
+import Content from './components/Content/Content';
+
 
 
 const App = () => {
   
   return (
     <div>
-       <Home />
-       <Footer />
+      <Content />
+      <Footer />
     </div>
   )
 }
