@@ -1,6 +1,7 @@
 import React from 'react'
 import Contact from '../Contact/Contact';
 import { HashLink } from 'react-router-hash-link';
+import { NavLink } from 'react-router-dom';
 
 
 const Content = () => {
@@ -38,7 +39,7 @@ const Content = () => {
             </div>
 
             <div className='sm:flex sm:justify-center sm:items-center sm:p-3'>
-              <img src='./raymond.jpg' className='w-40 rounded-full' alt='img' />
+              <img src='raymond.jpg' className='w-40 rounded-full' alt='img' />
             </div>
           </div>
 
@@ -47,19 +48,19 @@ const Content = () => {
               <div className='bg-green-400 text-right p-5 rounded-sm '>
                 <img src='./settings.png' className='w-10' />
                 <h3 className='font-bold text-white'>Deeper Skillset</h3>
-                <p>Skilled in the area of the frontend</p>
+                <p>I am a highly skilled software developer with extensive experience in a wide range of programming languages and technologies. I am confident in my ability to learn new technologies quickly and efficiently, and I am always looking for ways to improve my skills and stay up-to-date with the latest developments in the industry.</p>
               </div>
 
               <div className='bg-green-400 text-right p-10 rounded-sm'>
                  <img src='./bags.png' className='w-10' />
                 <h3 className='font-bold text-white'>Creative Work</h3>
-                <p>Skilled in the area of the frontend</p>
+                <p>I am a highly creative software developer who enjoys finding innovative solutions to complex problems. I am always looking for new and unique ways to approach software development, and I am not afraid to think outside the box to find the best solution. I am confident in my ability to come up with creative and effective solutions to even the most challenging problems.</p>
               </div>
 
               <div className='bg-green-400 text-right p-5 rounded-sm'>
                  <img src='./diamond.png' className='w-10' />
                 <h3 className='font-bold text-white'>Strong Dedication</h3>
-                <p>Skilled in the area of the frontend</p>
+                <p>I am a highly dedicated software developer who is committed to delivering high-quality code and solutions. I am willing to put in the lot of effort and time to ensure that my work is of the highest standard, and I am always looking for ways to improve my skills and knowledge. I am passionate about software development and am committed to delivering the best possible results for my clients and employers.</p>
               </div>
 
             </div>
@@ -125,7 +126,9 @@ const Content = () => {
               <div>
                 <img src='Screenshot getsall.png ' className='w-40 hover:m-2'/>
                 <p className=' py-5 text-sm font-semibold text-green-400'> A Getsall stactic website using react and tailwind</p>
-                <button className='bg-green-400 text-white p-3 rounded-md transition duration-300 ease-in-out'>Check Out</button>
+                <NavLink to='https://gestalll.onrender.com'>
+                  <button className='bg-green-400 text-white p-3 rounded-md transition duration-300 ease-in-out'>Check Out</button>
+                </NavLink>
               </div>
             </div>
 
