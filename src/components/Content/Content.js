@@ -39,7 +39,7 @@ const Content = () => {
             </div>
 
             <div className='sm:flex sm:justify-center sm:items-center sm:p-3'>
-              <img src='raymond.jpg' className='w-40 rounded-full' alt='img' />
+              <img src='Raymond.jpg' className='w-40 rounded-full' alt='img' />
             </div>
           </div>
 
