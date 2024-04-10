@@ -32,14 +32,14 @@ const Content = () => {
               </h1>
               <h1 className='font-bold text-4xl p-3 text-green-400 hover:underline'> OLUOTANMI Oluwabukunmi Gideon</h1> 
               
-              <h4 className="text-white">A full stack developer based from Nigeria</h4>
+              <h4 className="text-white">Full stack developer based in Nigeria</h4>
               <HashLink to='#contact' smooth>
                 <button className='p-4 m-5 text-white bg-green-400 rounded-md'>Contact me</button>
               </HashLink>
             </div>
 
             <div className='sm:flex sm:justify-center sm:items-center sm:p-3'>
-              <img src='Raymond.jpg' className='w-40 rounded-full' alt='img' />
+              <img src='WhatsApp Image 2024-04-10 at 10.43.49_34cd1ab2.jpg' className='w-40 h-70 rounded-xl' alt='img' />
             </div>
           </div>
 
