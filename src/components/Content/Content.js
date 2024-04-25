@@ -122,11 +122,19 @@ const Content = () => {
 
            
 
-            <div className='bg-black p-10'>
-              <div>
+            <div className='bg-black sm:p-10 xl:flex'>
+              <div className='xl:m-10'>
                 <img src='Screenshot getsall.png ' className='w-40 hover:m-2'/>
                 <p className=' py-5 text-sm font-semibold text-green-400'> A Getsall stactic website using react and tailwind</p>
                 <NavLink to='https://gestalll.onrender.com'>
+                  <button className='bg-green-400 text-white p-3 rounded-md transition duration-300 ease-in-out'>Check Out</button>
+                </NavLink>
+              </div>
+
+              <div className='sm:py-10 '>
+                <img src='Screenshot 2024-04-20 222824.png ' className='w-40 hover:m-2'/>
+                <p className=' py-5 text-sm font-semibold text-green-400'> A movie website using react and tailwind with router<br /> to display lastest movies</p>
+                <NavLink to='https://magix-movies.onrender.com'>
                   <button className='bg-green-400 text-white p-3 rounded-md transition duration-300 ease-in-out'>Check Out</button>
                 </NavLink>
               </div>
