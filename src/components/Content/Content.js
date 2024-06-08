@@ -7,19 +7,19 @@ import { NavLink } from 'react-router-dom';
 const Content = () => {
     return(
         <div >
-          <nav className='bg-black flex sm:text-center'>
+          <nav className='bg-black flex sm:text-center p-5'>
             <div className='text-center'>
-             <HashLink to='#contact' smooth className='text-green-400 text-lg font-semibold p-3 m-4 hover:underline'>
+             <HashLink to='#contact' smooth className='text-green-400 text-sm font-semibold p-3 m-4 hover:underline'>
                Contact
              </HashLink>
             </div>
             <div>
-             <HashLink to='#about' smooth className='text-green-400 text-lg font-semibold p-3 m-4 hover:underline'>
+             <HashLink to='#about' smooth className='text-green-400 text-sm font-semibold p-3 m-4 hover:underline'>
                About Me
              </HashLink>
             </div>
             <div>
-             <HashLink to='#projects' smooth className='text-green-400 text-lg font-semibold p-3 m-4 hover:underline'>
+             <HashLink to='#projects' smooth className='text-green-400 text-sm font-semibold p-3 m-4 hover:underline'>
                Projects
              </HashLink>
             </div>
@@ -32,14 +32,14 @@ const Content = () => {
               </h1>
               <h1 className='font-bold text-4xl p-3 text-green-400 hover:underline'> OLUOTANMI Oluwabukunmi Gideon</h1> 
               
-              <h4 className="text-white">Full stack developer based in Nigeria</h4>
+              <h4 className="text-white">Front-end developer based in Nigeria</h4>
               <HashLink to='#contact' smooth>
                 <button className='p-4 m-5 text-white bg-green-400 rounded-md'>Contact me</button>
               </HashLink>
             </div>
 
-            <div className='sm:flex sm:justify-center sm:items-center sm:p-3'>
-              <img src='WhatsApp Image 2024-04-10 at 10.43.49_34cd1ab2.jpg' className='w-40 h-70 rounded-xl' alt='img' />
+            <div className='sm:flex sm:justify-center sm:items-center sm:p-3 rounded-md'>
+              <img src='WhatsApp Image 2024-04-10 at 10.43.49_34cd1ab2.jpg' className='w-40 h-70 rounded-md' alt='img' />
             </div>
           </div>
 
@@ -80,7 +80,9 @@ const Content = () => {
                 </div>
                 <h2 className='text-4xl font-bold text-green-400 p-2 text-center'>My Bio</h2>
                 <p>My name is Oluotanmi Oluwabukunmi Gideon</p>
-                <button className=' text-center p-3 m-5 bg-green-400'>Download CV</button>
+                <a href='new Oluotanmi Oluwabukunmi Resume.docx'>
+                  <button className=' text-center p-3 m-5 bg-green-400'>Download CV</button>
+                </a>
               </div>
             </div>
 
@@ -122,28 +124,28 @@ const Content = () => {
 
            
 
-            <div className='bg-black sm:p-10 xl:flex'>
-            <div className='xl:m-10'>
-                <img src='Screenshot 2024-05-16 182920.png ' className='w-40 hover:m-2'/>
+            <div className='bg-black sm:p-10 xl:flex text-center justify-center'>
+              <div className='xl:m-12'>
+                <img src='Screenshot 2024-05-16 182920.png ' className='w-40 hover:m-2 rounded-full'/>
                 <p className=' py-5 text-sm font-semibold text-green-400'> Search your favourite books on Book-Hub </p>
                 <NavLink to='https://book-hub-5u1f.onrender.com'>
-                  <button className='bg-green-400 text-white p-3 rounded-md transition duration-300 ease-in-out'>Check it Out</button>
+                  <button className='bg-green-400 text-white p-3 rounded-md transition duration-300 ease-in-out font-bold'>Book-Hub</button>
                 </NavLink>
               </div>
 
-              <div className='xl:m-10'>
-                <img src='Screenshot getsall.png ' className='w-40 hover:m-2'/>
+              <div className='xl:m-10 py-10'>
+                <img src='Screenshot getsall.png ' className='w-40 hover:m-2 rounded-full'/>
                 <p className=' py-5 text-sm font-semibold text-green-400'> A Getsall stactic website using react and tailwind</p>
                 <NavLink to='https://gestalll.onrender.com'>
-                  <button className='bg-green-400 text-white p-3 rounded-md transition duration-300 ease-in-out'>Check it Out</button>
+                  <button className='bg-green-400 text-white p-3 rounded-md transition duration-300 ease-in-out font-bold'>Getsall</button>
                 </NavLink>
               </div>
 
               <div className='sm:py-10 '>
-                <img src='Screenshot 2024-04-20 222824.png ' className='w-40 hover:m-2'/>
+                <img src='Screenshot 2024-04-20 222824.png' className='w-40 hover:m-2 rounded-full'/>
                 <p className=' py-5 text-sm font-semibold text-green-400'> A movie website using react and tailwind with router<br /> to display lastest movies</p>
                 <NavLink to='https://magix-movies.onrender.com'>
-                  <button className='bg-green-400 text-white p-3 rounded-md transition duration-300 ease-in-out'>Check Out</button>
+                  <button className='bg-green-400 text-white p-3 rounded-md transition duration-300 ease-in-out font-bold'>Magix-Movies</button>
                 </NavLink>
               </div>
             </div>
