@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 const Content = () => {
     return(
         <div >
-          <nav className='bg-black flex sm:text-center p-5'>
+          <nav className='bg-white flex sm:text-center p-5'>
             <div className='text-center'>
              <HashLink to='#contact' smooth className='text-green-400 text-sm font-semibold p-3 m-4 hover:underline'>
                Contact
@@ -25,21 +25,21 @@ const Content = () => {
             </div>
           </nav>
 
-          <div className='xl:flex sm:inline-block text-center  xl:p-10 justify-around bg-black w-full'>
+          <div className='xl:flex sm:inline-block text-center  xl:p-10 justify-around w-full'>
             <div className='py-20'>
-              <h1 className='font-semibold text-white'>
+              <h1 className='font-semibold text-black'>
                 Hello, i'm 
               </h1>
               <h1 className='font-bold text-4xl p-3 text-green-400 hover:underline'> OLUOTANMI Oluwabukunmi Gideon</h1> 
               
-              <h4 className="text-white">Front-end developer based in Nigeria</h4>
+              <h4 className="text-black">Front-end developer based in Nigeria</h4>
               <HashLink to='#contact' smooth>
                 <button className='p-4 m-5 text-white bg-green-400 rounded-md'>Contact me</button>
               </HashLink>
             </div>
 
             <div className='sm:flex sm:justify-center sm:items-center sm:p-3 rounded-md'>
-              <img src='WhatsApp Image 2024-04-10 at 10.43.49_34cd1ab2.jpg' className='w-40 h-70 rounded-md' alt='img' />
+              <img src='WhatsApp Image 2024-04-10 at 10.43.49_34cd1ab2.jpg' className='w-40 h-[600px] rounded-[400px]' alt='img' />
             </div>
           </div>
 
@@ -65,23 +65,23 @@ const Content = () => {
 
             </div>
         
-            <div className='text-center' id='about'>
-                 <div className='bg-black' ><h5 className='font-bold text-2xl text-green-400'>About me</h5></div>
+            <div className='text-center my-5 rounded-sm' id='about'>
+                 <div className='bg-black' ><h5 className='font-bold text-[30px] text-green-400'>About me</h5></div>
             </div>
 
-            <div className='xl:flex justify-around bg-black sm:inline-block w-full'>
+            <div className='xl:flex justify-around  sm:inline-block w-full'>
               <div className='flex justify-center items-center'>
                 <img className='xl:w-50 sm:w-40 rounded-lg m-10' src='./Raymond2.jpg' />   
               </div>
 
-              <div className='xl:py-40 text-white sm:text-center sm:py-10'>
+              <div className='xl:py-40 text-black sm:text-center sm:py-10'>
                <div>
                  <h1>A Passionate Developer <br />Who loves To Code</h1>
                 </div>
                 <h2 className='text-4xl font-bold text-green-400 p-2 text-center'>My Bio</h2>
                 <p>My name is Oluotanmi Oluwabukunmi Gideon</p>
                 <a href='new Oluotanmi Oluwabukunmi Resume.docx'>
-                  <button className=' text-center p-3 m-5 bg-green-400'>Download CV</button>
+                  <button className=' text-center p-3 m-5 bg-green-400 text-white rounded-md'>Download CV</button>
                 </a>
               </div>
             </div>
@@ -89,60 +89,69 @@ const Content = () => {
             <hr />
 
             <div className='bg-black p-10'>
-                 <h5 className='font-bold text-2xl text-green-400 text-center'>Skills</h5>
+                 <h5 className='font-bold text-[30px] text-green-400 text-center'>Skills</h5>
             </div>
 
             <div className='xl:flex justify-around bg-black sm:inline-block w-full'>
 
-              <div className='bg-green-400 p-10 text-center m-10 rounded-md'>
+              <div className='bg-green-400 p-2 text-center m-10 rounded-md xl:w-full'>
                 <h3 className='text-white text-center'>H.T.M.L</h3>
-                <p className='text-2xl'>100%</p>
+                <p className='text-xl font-bold'>100%</p>
               </div>
-              <div className='bg-green-400 p-10 text-center m-10 rounded-md'>
+              <div className='bg-green-400 p-2 text-center m-10 rounded-md xl:w-full'>
                 <h3  className='text-white text-center'>C.S.S</h3>
-                <p  className='text-2xl' >90%</p>
+                <p  className='text-xl font-bold' >90%</p>
               </div>
-              <div className='bg-green-400 p-10 text-center m-10 rounded-md'>
+              <div className='bg-green-400 p-2 text-center m-10 rounded-md xl:w-full'>
                 <h3  className='text-white text-center'>JAVASCRIPT</h3>
-                <p  className='text-2xl'>90%</p>
+                <p  className='text-xl font-bold'>90%</p>
               </div>
-              <div className='bg-green-400 p-10 text-center m-10 rounded-md'>
+              <div className='bg-green-400 p-2 text-center m-10 rounded-md xl:w-full'>
                 <h3  className='text-white text-center'>React</h3>
-                <p  className='text-2xl'>90%</p>
+                <p  className='text-xl font-bold'>90%</p>
               </div>
-              <div className='bg-green-400 p-10 text-center m-10 rounded-md'>
+              <div className='bg-green-400 p-2 text-center m-10 rounded-md xl:w-full'>
                 <h3  className='text-white text-center'>Tailwind</h3>
-                <p  className='text-2xl'>90%</p>
+                <p  className='text-xl font-bold'>90%</p>
               </div>
             </div>
 
              <hr />
 
-            <div className='text-center bg-black p-10' id='projects'>
-               <h1 className='text-green-400 text-2xl font-bold'>Projects</h1>
+            <div className='text-center bg-black p-2 my-5' id='projects'>
+               <h1 className='text-green-400 text-[30px] font-bold'>Projects</h1>
             </div>
 
            
 
-            <div className='bg-black sm:p-10 xl:flex text-center justify-center'>
-              <div className='xl:m-12'>
-                <img src='Screenshot 2024-05-16 182920.png ' className='w-40 hover:m-2 rounded-full'/>
+            <div className=' sm:p-10 xl:flex text-center  justify-between'>
+
+            <div className='xl:m-12 sm:m-[20px]'>
+                <img src='lotus.png ' className='xl:w-[4000px] hover:m-2 rounded-full justify-center xl:mx-[100px]'/>
+                <p className=' py-5 text-sm font-semibold text-green-400'>Lotus-music is a website created with react library for the frontend and node,express for the backend</p>
+                <NavLink to='https://lotus-music-1.onrender.com/'>
+                  <button className='bg-green-400 text-white p-3 rounded-md transition duration-300 ease-in-out font-bold'>Lotus-Music</button>
+                </NavLink>
+              </div>
+
+              <div className='xl:m-10 sm:m-[20px]'>
+                <img src='Screenshot 2024-05-16 182920.png ' className='xl:w-[400px] hover:m-2 rounded-full'/>
                 <p className=' py-5 text-sm font-semibold text-green-400'> Search your favourite books on Book-Hub </p>
                 <NavLink to='https://book-hub-5u1f.onrender.com'>
                   <button className='bg-green-400 text-white p-3 rounded-md transition duration-300 ease-in-out font-bold'>Book-Hub</button>
                 </NavLink>
               </div>
 
-              <div className='xl:m-10 py-10'>
-                <img src='Screenshot getsall.png ' className='w-40 hover:m-2 rounded-full'/>
+              <div className='xl:m-10 sm:m-[20px] '>
+                <img src='Screenshot getsall.png ' className='xl:w-[400px] hover:m-2 rounded-full'/>
                 <p className=' py-5 text-sm font-semibold text-green-400'> A Getsall stactic website using react and tailwind</p>
                 <NavLink to='https://gestalll.onrender.com'>
                   <button className='bg-green-400 text-white p-3 rounded-md transition duration-300 ease-in-out font-bold'>Getsall</button>
                 </NavLink>
               </div>
 
-              <div className='sm:py-10 '>
-                <img src='Screenshot 2024-04-20 222824.png' className='w-40 hover:m-2 rounded-full'/>
+              <div className='sm:py-10 sm:m-[20px]'>
+                <img src='Screenshot 2024-04-20 222824.png' className='xl:w-[400px] hover:m-2 rounded-full'/>
                 <p className=' py-5 text-sm font-semibold text-green-400'> A movie website using react and tailwind with router<br /> to display lastest movies</p>
                 <NavLink to='https://magix-movies.onrender.com'>
                   <button className='bg-green-400 text-white p-3 rounded-md transition duration-300 ease-in-out font-bold'>Magix-Movies</button>

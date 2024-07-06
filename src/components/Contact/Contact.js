@@ -4,7 +4,7 @@ const Contact=()=>{
     return(
      <>
        <div id="contact" className='text-center p-10 bg-black' >
-              <h1 className='text-green-400 text-2xl font-bold'>Contact Me</h1>
+              <h1 className='text-green-400 text-[30px] font-bold'>Contact Me</h1>
        </div>
 
         <form>
@@ -29,7 +29,7 @@ const Contact=()=>{
                 />
               </div>
               <div className='justify-center bg-black text-center'>
-                <button className='text-white bg-green-400 p-5 m-4'>Send</button>
+                <button className='text-white bg-green-400 p-2 m-4 rounded-md'>Send Details</button>
               </div>
          </form>
      </>
